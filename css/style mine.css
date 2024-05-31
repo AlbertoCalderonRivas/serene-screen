@@ -1,0 +1,15 @@
+body{
+    background-image: url("https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg");
+}
+#style_01{
+    color: pink;
+}
+#style_02{
+    color: cyan;
+}
+
+.title{
+    
+    font-size: 2em;
+    color: #aa40bb;
+}
