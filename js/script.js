@@ -18,7 +18,9 @@ animarPez();
 
 n = 1
 
+
 function animarPulpo() {
+   
     anime({
         targets: ".pulpo",
         translateY: function () { return anime.random(-100, 100);},
@@ -29,6 +31,7 @@ function animarPulpo() {
         loop: false,
     });
     n += 1
+    SumarPuntos();
 }
 
 function animarCoral() {
@@ -42,4 +45,16 @@ function animarCoral() {
     });
 }
 animarCoral()
+
+p=0;
+
+function SumarPuntos(){
+    p+=1;
+    span = document.getElementById("number");
+    txt = document.createTextNode("1");
+    span.appendChild(txt);
+    
+
+
+}
 
