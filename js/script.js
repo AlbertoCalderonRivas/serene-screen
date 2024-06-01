@@ -46,15 +46,16 @@ function animarCoral() {
 }
 animarCoral()
 
-p=0;
+p=-1;
 
 function SumarPuntos(){
     p+=1;
     span = document.getElementById("number");
-    txt = document.createTextNode("1");
-    span.appendChild(txt);
+    txt = document.createTextNode(p);
+    span.textContent = p;
     
 
 
 }
 
+SumarPuntos()
